@@ -26,7 +26,7 @@ const getRoutePosition = async (req, res) => {
         });
     }
     catch (err) {
-        console.err('GET api/cemetery/getroute/:latitude/:longitude' + err.stack);
+        console.error('GET api/cemetery/getroute/:latitude/:longitude' + err.stack);
         res.status(400).json({
             status: "error",
             data: err.stack,
