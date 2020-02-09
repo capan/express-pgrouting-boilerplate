@@ -6,9 +6,6 @@ describe('routing', () => {
         app = require('../server');
         request = supertest(app);
     });
-    // afterEach(() => {
-        // app.close();
-    // });
     it('should return 200 status', async (done) => {
         const res = await request.get('/api/getrouteposition/39.937/32.824/39.934/32.823');
         expect(res.status).toBe(200);
