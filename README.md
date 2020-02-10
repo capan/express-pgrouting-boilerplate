@@ -7,7 +7,7 @@ A boilerplate for pgRouting applications.
 
 This repository is intended to provide a basis for routing applications.
 
-If you already have a routing database you can jump to [Installation](#Installation), otherwise to setup a routing database follow the steps on [Getting Started](#Getting Started).
+If you already have a routing database you can jump to [Installation](#installation), otherwise to setup a routing database follow the steps on [Getting Started](#getting-started).
 
 Prerequisites
 -------------
@@ -16,7 +16,7 @@ Prerequisites
 - **Optional** : [Postman](https://www.postman.com/) 
 
 Getting Started
--------------
+---------------
 
 > 1) Download OpenStreetMap(OSM) Data
 You can use the options below;
@@ -68,7 +68,8 @@ SELECT ST_AsGeoJSON(ST_Union((the_geom))) FROM ways WHERE id in
 ```
 This query should return a valid geojson.
 
-## Installation
+Installation
+------------
 Just clone the project and change env. file to connect your database.
 > Clone the project 
 ```shell
