@@ -75,3 +75,7 @@ Just clone the project and change env. file to connect your database.
 ```shell
 $ git clone https://github.com/capan/express-pgrouting-boilerplate.git
 ```
+> Run npm install 
+```shell
+$ npm i
+```
