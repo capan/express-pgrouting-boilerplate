@@ -13,8 +13,6 @@ jobs:
         with:
           fetch-depth: 0
       - uses: sonarsource/sonarqube-scan-action@master
-        with:
-          projectBaseDir: .
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_API }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
